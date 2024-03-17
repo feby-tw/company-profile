@@ -14,23 +14,24 @@ const AboutUsPage: React.FC = () => {
     <Layout showFooter={false}>
       <div>
         <main>
-          <h1>
+          <h1 className='bg-black text-white text-4xl flex justify-center items-center h-56'>
             ABOUT US
           </h1>
 
-          <div className='flex'>
-            <Image
+          <div className='grid grid-cols-2 gap-16 m-16 justify-start'>
+            <Image className='flex-col flex-shrink-0'
               src={aboutCompany}
               alt='Gambar Bangunan Eiger Indonesia'
             />
-            <div>
-              <h5>
+            <div className='flex-col'>
+              <h5 className='text-red-600 font-bold'>
                 ABOUT COMPANY
               </h5>
-              <h2>
+              <h2 className='text-4xl mb-4'>
                 MORE THAN JUST OUTDOOR COMPANY
               </h2>
-                <p>
+              <div>
+                <p className='mb-4'>
                   Eiger Adventure (EIGER) berdiri pada tahun 1989, sebagai sebuah merek penyedia perlengkapan
                   dan peralatan bagi gaya hidup para pegiat alam. Bernaung di bawah PT Eigerindo MPI, EIGER
                   terlahir di Indonesia oleh orang-orang Indonesia dengan tujuan untuk menjadi teman sekaligus
@@ -38,7 +39,7 @@ const AboutUsPage: React.FC = () => {
                   EIGER juga memiliki tujuan untuk membawa nama Indonesia dan kualitas produk Indonesia ke
                   kancah internasional, khususnya di industri fashion retail.
                 </p>
-                <p>
+                <p className='mb-4'>
                   Nama EIGER sendiri berasal dari nama sebuah gunung berketinggian 3.970 mdpl yang terletak
                   di Bernese Alps, Swiss, Eropa. Gunung ini memiliki reputasi yang sangat terkenal karena
                   merupakan salah satu gunung tersulit dan berbahaya untuk didaki di seluruh dunia. Salah
@@ -46,16 +47,17 @@ const AboutUsPage: React.FC = () => {
                   menantang di dunia, karena memiliki permukaan batu es yang curam, jalur pendakian yang
                   panjang dan sering terjadi longsoran batu, serta cuaca yang tidak dapat diprediksi.
                 </p>
-                <p>
+                <p className='mb-4'>
                 Sejak tahun 2015, EIGER memfokuskan produk-produknya untuk kegiatan alam di iklim tropis
                 yang kini menjadi tagline EIGER, yaitu “Tropical Adventure”. Hal tersebut tercermin di
                 tiga kategori produk EIGER, yaitu Mountaineering, Riding, dan Eiger 1989 (Lifestyle).
                 </p>
-                <p>
+                <p className='mb-4'>
                   Saat ini, EIGER sudah tersedia di 137 kabupaten/kota di seluruh Indonesia dengan total
                   237 toko dan memperkuat kehadirannya di dunia daring dengan www.eigeradventure.com atau
                   situs resmi dan halaman e-commerce EIGER.
                 </p>
+              </div>
             </div>
           </div>
 

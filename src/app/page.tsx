@@ -2,7 +2,7 @@ import React from 'react';
 import HeroSection from '../components/HeroSection';
 import CompanyOverview from '../components/CompanyOverview';
 import Products from '../components/Products';
-import Testimonials from '../components/Testimonials';
+import TestimonialsDynamic from '../components/Testimonials';
 import Layout from './layout';
 
 const Home: React.FC = () => {
@@ -13,7 +13,7 @@ const Home: React.FC = () => {
           <HeroSection />
           <CompanyOverview />
           <Products />
-          <Testimonials />
+          <TestimonialsDynamic />
         </main>
       </div>
     </Layout>

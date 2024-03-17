@@ -26,6 +26,79 @@ body {
   }
 } */
 
+@font-face {
+  font-family: 'Sansthirteen';
+  src: url('../assets/fonts/sansthirteenblack.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+  font-family: 'Sansthirteen';
+  color: white;
+  font-size: xx-large;
+}
+
+h2 {
+  font-family: 'Sansthirteen';
+  color: black;
+  font-size: xx-large;
+}
+
+@font-face {
+  font-family: 'Ttcommons';
+  src: url('../assets/fonts/TT Commons Light.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.navbar {
+  background-color: transparent;
+  display: flex;
+  margin-top: 0.3%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  width: 95%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  color: white;
+  font-family: 'Ttcommons';
+  letter-spacing: 2px;
+}
+
+.behind-navbar {
+  position: absolute;
+  top: 0;
+  margin-top: 0.6%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  width: 95%;
+  height: 90%;
+  border-radius: 0.5rem;
+  backdrop-filter: blur(20px);
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: -1;
+}
+
+h5 {
+  font-family: 'Ttcommons', sans-serif;
+  color: #DC2626;
+  font-weight:900;
+}
+
+h6 {
+  font-family: 'Ttcommons', sans-serif;
+  color: #DC2626;
+  font-weight:700;
+}
+
+p {
+  font-family: 'Ttcommons', sans-serif;
+}
+
+
 
 .flex figcaption {
   font-weight: bold;

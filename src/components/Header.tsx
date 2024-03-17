@@ -5,10 +5,9 @@ import Link from 'next/link';
 
 const Header: React.FC = () => {
   return (
-    <header className='fixed w-full'>
+    <header className='fixed w-full z-50'>
       <div className='border-t-4 border-red-600'></div>
-      <nav className='text-white bg-black bg-opacity-25 flex justify-between items-center z-50 p-3 rounded-xl'
-           style={{marginTop: '0.3%', marginLeft: '2.5%', marginRight: '-2.5%', width: '95%'}}>
+      <nav className='navbar'>
         <Image src={logo} alt='Logo'/>
         <ul className='flex space-x-4'>
           <li>
@@ -25,6 +24,7 @@ const Header: React.FC = () => {
           </li>
         </ul>
       </nav>
+      <div className='behind-navbar'></div>
     </header>
   );
 };
