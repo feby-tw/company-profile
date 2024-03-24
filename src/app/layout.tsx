@@ -1,18 +1,20 @@
 import React, { ReactNode } from 'react';
-import Header from '../components/haeder';
+import Header from '../components/header';
 import Footer from '../components/footer';
 import './globals.css';
 
 interface LayoutProps {
   children: ReactNode;
+  showHeader?: boolean;
+  showFooter?: boolean;
 }
 
-const Layout: React.FC<LayoutProps> = ({ children }) => {
+const Layout: React.FC<LayoutProps> = ({ children, showHeader = true, showFooter = true }) => {
   return (
     <div className='min-h-screen flex flex-col'>
-      <Header />
+      {showHeader && <Header />} {}
       <main className='flex-grow'>{children}</main>
-      <Footer />
+      {showFooter && <Footer />} {}
     </div>
   );
 };

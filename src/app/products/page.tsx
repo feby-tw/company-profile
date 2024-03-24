@@ -4,7 +4,7 @@ import ProductList from '../../components/products/product-list';
 
 const ProductsPage: React.FC = () => {
   return (
-    <Layout>
+    <Layout showHeader={false} showFooter={false}>
       <div>
         <main>
           <h1 className='bg-black text-white text-5xl flex justify-center place-items-center h-56 tracking-widest'>
