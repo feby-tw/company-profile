@@ -1,30 +1,44 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* 
+
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --width-vw: 100%vw
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+/* Styles for Desktop */
+@media only screen and (min-width:769px) {
+  header,
+  main,
+  footer {
+    width: 1263px;
+    margin: 0 auto;
   }
-} */
-/* 
-body {
-  background-color: black);
-} */
+}
 
-/* @layer utilities {
-  .text-balance {
-    text-wrap: balance;
+/* Styles for Tablet */
+@media only screen and (min-width:600px) and (max-width:768px) {
+  header,
+  main,
+  footer {
+    width: 768px;
+    margin: 0 auto;
   }
-} */
+}
+
+/* Styles for Phone */
+@media only screen and (max-width:600px) {
+  header,
+  main,
+  footer {
+    width: 600px;
+    margin: 0 auto;
+  }
+}
+
+/*/////////////////////////////*/
+/*   STYLES FOR TEXT'S FONTS   */
+/*/////////////////////////////*/
 
 @font-face {
   font-family: 'Sansthirteen';
@@ -37,12 +51,14 @@ h1 {
   font-family: 'Sansthirteen';
   color: white;
   font-size: xx-large;
+  letter-spacing: 1px;
 }
 
 h2 {
   font-family: 'Sansthirteen';
   color: black;
   font-size: xx-large;
+  letter-spacing: 1px;
 }
 
 @font-face {
@@ -52,54 +68,227 @@ h2 {
   font-style: normal;
 }
 
-.navbar {
-  background-color: transparent;
-  display: flex;
-  margin-top: 0.3%;
-  margin-left: 2.5%;
-  margin-right: 2.5%;
-  width: 95%;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0.75rem;
-  border-radius: 0.5rem;
-  color: white;
-  font-family: 'Ttcommons';
-  letter-spacing: 2px;
-}
-
-.behind-navbar {
-  position: absolute;
-  top: 0;
-  margin-top: 0.6%;
-  margin-left: 2.5%;
-  margin-right: 2.5%;
-  width: 95%;
-  height: 90%;
-  border-radius: 0.5rem;
-  backdrop-filter: blur(20px);
-  background-color: rgba(0, 0, 0, 0.3);
-  z-index: -1;
-}
-
 h5 {
   font-family: 'Ttcommons', sans-serif;
   color: #DC2626;
   font-weight:900;
+  letter-spacing: 3px;
 }
 
 h6 {
   font-family: 'Ttcommons', sans-serif;
   color: #DC2626;
-  font-weight:700;
+  letter-spacing: 3 px;
 }
 
 p {
   font-family: 'Ttcommons', sans-serif;
 }
 
+/*/////////////////////////////*/
+/*   STYLES FOR RUNNING TEXT   */
+/*/////////////////////////////*/
 
+.running-text-container {
+  overflow: hidden;
+  white-space: nowrap;
+  background-color: #DC2626;
+}
 
-.flex figcaption {
+.running-text {
+  animation: marquee 20s linear infinite;
+  font-family: 'Ttcommons', sans-serif;
+  font-size: small;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0.3%;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.running-text-container:hover .running-text,
+.running-text-container:focus .running-text,
+.running-text-container:active .running-text {
+  animation-play-state: paused;
   font-weight: bold;
+}
+
+/*//////////////////////////////*/
+/*   STYLES FOR BANNER SLIDER   */
+/*//////////////////////////////*/
+
+.banners {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+}
+
+.banner-slider {
+  width: 90%;
+  height: auto;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.banner-slides {
+  width: 300%;
+  height: auto;
+  display: flex;
+}
+
+.banner-slides input {
+  display: none;
+}
+
+.banner image {
+  width: 90%;
+  height: auto;
+}
+
+.banner-nav-manual {
+  position: absolute;
+  width: 90%;
+  margin-top: -2%;
+  display: flex;
+  justify-content: center;
+}
+
+.banner-manual-btn {
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 5px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.banner-manual-btn:not(:last-child) {
+  margin-right: 3%;
+}
+
+.banner-manual-btn:hover,
+.banner-manual-btn:focus,
+.banner-manual-btn:active {
+  background: gray;
+}
+
+#banner1:checked ~ .first-b {
+  margin-left: 0;
+  transition: 2s;
+}
+
+#banner2:checked ~ .second-b {
+  margin-left: -35%;
+  transition: 2s;
+}
+
+#banner3:checked ~ .third-b {
+  margin-left: -70%;
+  transition: 2s;
+}
+
+/*//////////////////////////////////////////*/
+/*   STYLES FOR TEAM'S EXPERIENCES SLIDER   */
+/*//////////////////////////////////////////*/
+
+.experiences {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: gray-200;
+}
+
+.exp-slider {
+  width: 70%;
+  height: auto;
+  overflow: hidden;
+  border-radius: 20px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.exp-slides {
+  width: 500%;
+  height: auto;
+  display: flex;
+}
+
+.exp-slides input {
+  display: none;
+}
+
+.experience {
+  width: 70%;
+  height: auto;
+  flex: 1;
+  padding: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  background-color: white;
+  justify-content: center;
+}
+
+.experience p {
+  margin: 0;
+}
+
+.exp-nav-manual {
+  position: absolute;
+  width: 70%;
+  margin-top: -2%;
+  display: flex;
+  justify-content: center;
+}
+
+.exp-manual-btn {
+  border: 1px solid grey;
+  border-radius: 50%;
+  padding: 5px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.exp-manual-btn:not(:last-child) {
+  margin-right: 3%;
+}
+
+.exp-manual-btn:hover,
+.exp-manual-btn:focus,
+.exp-manual-btn:active {
+  background: gray;
+}
+
+#experience1:checked ~ .first-exp {
+  transform: translateX(0%);
+}
+
+#experience2:checked ~ .second-exp {
+  transform: translateX(-100%);
+}
+
+#experience3:checked ~ .third-exp {
+  transform: translateX(-200%);
+}
+
+#experience4:checked ~ .fourth-exp {
+  transform: translateX(-300%);
+}
+
+#experience5:checked ~ .fifth-exp {
+  transform: translateX(-400%);
 }
