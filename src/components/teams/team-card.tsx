@@ -1,5 +1,5 @@
 import React from 'react';
-import { Member } from '@/utils/data-models/member';
+import { Member } from '../../utils/data-models/member';
 import Image from 'next/image';
 
 export type TeamCardProps = {

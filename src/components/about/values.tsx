@@ -1,10 +1,10 @@
 import React from 'react';
 import Image from 'next/image';
-import Value1 from '@/assets/images/value1.png';
-import Value2 from '@/assets/images/value2.png';
-import Value3 from '@/assets/images/value3.png';
-import Value4 from '@/assets/images/value4.png';
-import Value5 from '@/assets/images/value5.png';
+import Value1 from '../../assets/images/value1.png';
+import Value2 from '../../assets/images/value2.png';
+import Value3 from '../../assets/images/value3.png';
+import Value4 from '../../assets/images/value4.png';
+import Value5 from '../../assets/images/value5.png';
 
 const CompanyValues = () => {
   return (

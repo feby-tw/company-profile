@@ -1,14 +1,14 @@
 import React from 'react';
-import Layout from '@/app/layout';
+import Layout from './layout';
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faExclamationCircle } from '@fortawesome/free-solid-svg-icons';
 import { faFire } from '@fortawesome/free-solid-svg-icons';
-import BannerSlider from '@/components/home/banner';
-import ProductOverview from '@/components/home/product-overview';
-import HeroSection from '@/components/home/hero-section';
-import CompanyTagline from '@/components/home/company-tagline';
-import CompanyOverview from '@/components/home/company-overview';
+import BannerSlider from '../components/home/banner';
+import ProductOverview from '../components/home/product-overview';
+import HeroSection from '../components/home/hero-section';
+import CompanyTagline from '../components/home/company-tagline';
+import CompanyOverview from '../components/home/company-overview';
 
 const HomePage: React.FC = () => {
   const months = [ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ];

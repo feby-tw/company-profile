@@ -1,8 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
-import Banner1 from '@/assets/images/banner1.png';
-import Banner2 from '@/assets/images/banner2.png';
-import Banner3 from '@/assets/images/banner3.png';
+import Banner1 from '../../assets/images/banner1.png';
+import Banner2 from '../../assets/images/banner2.png';
+import Banner3 from '../../assets/images/banner3.png';
 
 const BannerSlider: React.FC = () => {
   return (

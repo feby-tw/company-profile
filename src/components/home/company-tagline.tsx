@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
-import EigerGreen from '@/assets/images/green.png';
-import TropicalAdventure from '@/assets/images/tagline.png';
+import EigerGreen from '../../assets/images/green.png';
+import TropicalAdventure from '../../assets/images/tagline.png';
 
 const CompanyTagline: React.FC = () => {
   return (

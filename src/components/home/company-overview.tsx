@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
-import Overview from '@/assets/images/overview.png';
-import Logo from '@/assets/images/logos.png';
+import Overview from '../../assets/images/overview.png';
+import Logo from '../../assets/images/logos.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faTiktok, faFacebook, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faHeadset } from '@fortawesome/free-solid-svg-icons';

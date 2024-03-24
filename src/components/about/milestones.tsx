@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import { ArrowRightIcon } from '@heroicons/react/20/solid';
 import Image from 'next/image';
-import certifiedCompany from '@/assets/images/certification.png';
+import certifiedCompany from '../../assets/images/certification.png';
 
 const CompanyMilestones = () => {
   return (

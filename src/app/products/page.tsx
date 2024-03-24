@@ -1,6 +1,6 @@
 import React from 'react';
-import Layout from '@/app/layout';
-import ProductList from '@/components/products/product-list';
+import Layout from '../layout';
+import ProductList from '../../components/products/product-list';
 
 const ProductsPage: React.FC = () => {
   return (

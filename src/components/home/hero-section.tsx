@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import { ArrowRightIcon } from '@heroicons/react/20/solid';
 import Image from 'next/image';
-import visionMission from '@/assets/images/visionMission.png';
+import visionMission from '../../assets/images/visionMission.png';
 
 const HeroSection: React.FC = () => {
   return (

@@ -1,9 +1,9 @@
 import React from 'react';
-import Layout from '@/app/layout';
-import TeamMember from '@/components/teams/team-member'
+import Layout from '../layout';
+import TeamMember from '../../components/teams/team-member'
 import Image from 'next/image';
-import Team from '@/assets/teams/team.jpg'
-import Founder from '@/assets/teams/founder.jpg'
+import Team from '../../assets/teams/team.jpg'
+import Founder from '../../assets/teams/founder.jpg'
 import Link from 'next/link';
 import { ArrowRightIcon } from '@heroicons/react/20/solid';
 

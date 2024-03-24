@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import aboutCompany from '@/assets/images/company.png';
+import aboutCompany from '../../assets/images/company.png';
 
 const CompanyHistory = () => {
   return (

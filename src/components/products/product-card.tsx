@@ -1,5 +1,5 @@
 import React from 'react';
-import { Product } from '@/utils/data-models/product';
+import { Product } from '../../utils/data-models/product';
 import Image from 'next/image';
 
 export type ProductCardProps = {

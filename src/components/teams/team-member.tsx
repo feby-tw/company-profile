@@ -1,11 +1,11 @@
-import TeamCard from '@/components/teams/team-card'
-import { Member } from '@/utils/data-models/member';
-import Hummel from '@/assets/teams/member1.jpg';
-import Fox from '@/assets/teams/member2.jpg';
-import Meyer from '@/assets/teams/member3.jpg';
-import Raimondi from '@/assets/teams/member4.jpg';
-import Gutermuth from '@/assets/teams/member5.jpg';
-import Keen from '@/assets/teams/member6.jpg';
+import TeamCard from './team-card';
+import { Member } from '../../utils/data-models/member';
+import Hummel from '../../assets/teams/member1.jpg';
+import Fox from '../../assets/teams/member2.jpg';
+import Meyer from '../../assets/teams/member3.jpg';
+import Raimondi from '../../assets/teams/member4.jpg';
+import Gutermuth from '../../assets/teams/member5.jpg';
+import Keen from '../../assets/teams/member6.jpg';
 
 const members: Member[] = [
   {
