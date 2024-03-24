@@ -46,7 +46,7 @@ export const products = [
                 image: Sianok,
             },
         ],
-        reviews: <Reviews rating={5} />,
+        reviews: <Reviews rating={5} totalStars={5} />,
     },
     {
         id: '02',
@@ -62,7 +62,7 @@ export const products = [
                 image: MugBrown,
             },
         ],
-        reviews: <Reviews rating={4} />,
+        reviews: <Reviews rating={4} totalStars={5} />,
     },
     {
         id: '03',
@@ -78,7 +78,7 @@ export const products = [
                 image: Azimuth,
             },
         ],
-        reviews: <Reviews rating={5} />,
+        reviews: <Reviews rating={5} totalStars={5} />,
     },
     {
         id: '04',
@@ -94,7 +94,7 @@ export const products = [
                 image: Chair,
             },
         ],
-        reviews: <Reviews rating={5} />,
+        reviews: <Reviews rating={5} totalStars={5} />,
     },
     {
         id: '05',
@@ -110,7 +110,7 @@ export const products = [
                 image: Table,
             },
         ],
-        reviews: <Reviews rating={5} />,
+        reviews: <Reviews rating={5} totalStars={5} />,
     },
     {
         id: '06',
@@ -126,7 +126,7 @@ export const products = [
                 image: MealPackage,
             },
         ],
-          reviews: <Reviews rating={4} />,
+          reviews: <Reviews rating={4} totalStars={5} />,
     },
     {
         id: '07',
@@ -142,7 +142,7 @@ export const products = [
                 image: Torch,
             },
         ],
-        reviews: <Reviews rating={5} />,
+        reviews: <Reviews rating={5} totalStars={5} />,
     },
     {
         id: '08',
@@ -158,7 +158,7 @@ export const products = [
                 image: Rope,
             },
         ],
-        reviews: <Reviews rating={4} />,
+        reviews: <Reviews rating={4} totalStars={5} />,
     },
     {
         id: '09',
@@ -174,7 +174,7 @@ export const products = [
                 image: Trowel,
             },
         ],
-        reviews: <Reviews rating={4} />,
+        reviews: <Reviews rating={4} totalStars={5} />,
     },
     {
         id: '10',
@@ -190,7 +190,7 @@ export const products = [
                 image: Pole,
             },
         ],
-        reviews: <Reviews rating={5} />,
+        reviews: <Reviews rating={5} totalStars={5} />,
     },
     {
         id: '11',
@@ -206,7 +206,7 @@ export const products = [
                 image: Waist,
             },
         ],
-        reviews: <Reviews rating={5} />,
+        reviews: <Reviews rating={5} totalStars={5} />,
     },
     {
         id: '12',
@@ -222,7 +222,7 @@ export const products = [
                 image: Sling,
             },
         ],
-        reviews: <Reviews rating={4} />,
+        reviews: <Reviews rating={4} totalStars={5} />,
     },
     {
         id: '13',
@@ -238,7 +238,7 @@ export const products = [
                 image: Duffel,
             },
         ],
-        reviews: <Reviews rating={5} />,
+        reviews: <Reviews rating={5} totalStars={5} />,
     },
     {
         id: '14',
@@ -254,7 +254,7 @@ export const products = [
                 image: Luggage,
             },
         ],
-        reviews: <Reviews rating={4} />,
+        reviews: <Reviews rating={4} totalStars={5} />,
     },
     {
         id: '15',
@@ -270,7 +270,7 @@ export const products = [
                 image: Backpack,
             },
         ],
-        reviews: <Reviews rating={5} />,
+        reviews: <Reviews rating={5} totalStars={5} />,
     },
     {
         id: '16',
@@ -286,7 +286,7 @@ export const products = [
                 image: MambaLow,
             },
         ],
-        reviews: <Reviews rating={5} />,
+        reviews: <Reviews rating={5} totalStars={5} />,
     },
     {
         id: '17',
@@ -302,7 +302,7 @@ export const products = [
                 image: MambaMid,
             },
         ],
-        reviews: <Reviews rating={5} />,
+        reviews: <Reviews rating={5} totalStars={5} />,
     },
     {
         id: '18',
@@ -318,7 +318,7 @@ export const products = [
                 image: Biskra,
             },
         ],
-        reviews: <Reviews rating={4} />,
+        reviews: <Reviews rating={4} totalStars={5} />,
     },
     {
         id: '19',
@@ -334,7 +334,7 @@ export const products = [
                 image: RasDashen,
             },
         ],
-        reviews: <Reviews rating={4} />,
+        reviews: <Reviews rating={4} totalStars={5} />,
     },
     {
         id: '20',
@@ -350,7 +350,7 @@ export const products = [
                 image: Adder,
             },
         ],
-        reviews: <Reviews rating={5} />,
+        reviews: <Reviews rating={5} totalStars={5} />,
     },
     {
         id: '21',
@@ -366,7 +366,7 @@ export const products = [
                 image: Parka,
             },
         ],
-        reviews: <Reviews rating={4} />,
+        reviews: <Reviews rating={4} totalStars={5} />,
     },
     {
         id: '22',
@@ -382,7 +382,7 @@ export const products = [
                 image: Coach,
             },
         ],
-        reviews: <Reviews rating={4} />,
+        reviews: <Reviews rating={4} totalStars={5} />,
     },
     {
         id: '23',
@@ -398,7 +398,7 @@ export const products = [
                 image: Bomber,
             },
         ],
-        reviews: <Reviews rating={5} />,
+        reviews: <Reviews rating={5} totalStars={5} />,
     },
     {
         id: '24',
@@ -414,7 +414,7 @@ export const products = [
                 image: Windproof,
             },
         ],
-        reviews: <Reviews rating={5} />,
+        reviews: <Reviews rating={5} totalStars={5} />,
     },
     {
         id: '25',
@@ -430,7 +430,7 @@ export const products = [
                 image: Padded,
             },
         ],
-        reviews: <Reviews rating={5} />,
+        reviews: <Reviews rating={5} totalStars={5} />,
     },
     {
         id: '26',
@@ -446,7 +446,7 @@ export const products = [
                 image: Wallet,
             },
         ],
-        reviews: <Reviews rating={4} />,
+        reviews: <Reviews rating={4} totalStars={5} />,
     },
     {
         id: '27',
@@ -462,7 +462,7 @@ export const products = [
                 image: Bracelet,
             },
         ],
-        reviews: <Reviews rating={4} />,
+        reviews: <Reviews rating={4} totalStars={5} />,
     },
     {
         id: '28',
@@ -478,7 +478,7 @@ export const products = [
                 image: Belt,
             },
         ],
-        reviews: <Reviews rating={5} />,
+        reviews: <Reviews rating={5} totalStars={5} />,
     },
     {
         id: '29',
@@ -494,7 +494,7 @@ export const products = [
                 image: Watch,
             },
         ],
-        reviews: <Reviews rating={5} />,
+        reviews: <Reviews rating={5} totalStars={5} />,
     },
     {
         id: '30',
@@ -510,6 +510,6 @@ export const products = [
                 image: Aviator,
             },
         ],
-        reviews: <Reviews rating={5} />,
+        reviews: <Reviews rating={5} totalStars={5} />,
     },
 ];

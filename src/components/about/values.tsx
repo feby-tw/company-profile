@@ -15,7 +15,7 @@ const CompanyValues = () => {
           <h1 className='text-7xl mb-20 tracking-widest'>
               SHARE
           </h1>
-          <div className='grid grid-cols-5 gap-y-4'>
+          <div className='grid grid-cols-5 xs:grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-y-4'>
               <div className='flex flex-col place-items-center justify-start text-center text-white'>
                   <Image src={Value1} alt='Servanthood Symbol' className='mb-4 p-6' />
                   <figcaption className='mb-4 font-bold text-2xl'>Servanthood</figcaption>

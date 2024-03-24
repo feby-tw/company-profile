@@ -4,14 +4,14 @@ import aboutCompany from '@/assets/images/company.png';
 
 const CompanyHistory = () => {
   return (
-    <div className='grid grid-cols-2 gap-20 m-20 justify-start'>
+    <div className='grid grid-cols-2 xs:grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-20 m-20 justify-start'>
         <div>
-            <Image className='flex-col flex-shrink-0'
+            <Image className='flex-shrink-0'
             src={aboutCompany}
             alt='Gambar Bangunan Eiger Indonesia'
             />
         </div>
-        <div className='flex-col'>
+        <div>
             <h5 className='text-red-600 font-bold mb-2'>
             ABOUT COMPANY
             </h5>

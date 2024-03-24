@@ -16,7 +16,7 @@ const ProductOverview = () => {
   return (
     <div>
       <hr />
-      <h5 className='mt-8 text-xl font-bold text-center'>
+      <h5 className='m-12 text-2xl font-bold text-center'>
         <u>Product Categories</u>
       </h5>
       <div className='grid grid-cols-5 gap-2 m-8'>

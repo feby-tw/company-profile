@@ -6,7 +6,7 @@ import certifiedCompany from '@/assets/images/certification.png';
 
 const CompanyMilestones = () => {
   return (
-    <div className='grid grid-cols-2 mt-20 mb-20 justify-start items-center'>
+    <div className='grid grid-cols-2 xs:grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 mt-20 mb-20 justify-start items-center'>
         <div className='pl-36 pr-12'>
             <h5 className='mb-2'>
             CERTIFIED COMPANY

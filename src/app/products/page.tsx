@@ -1,19 +1,8 @@
-'use client'
-
 import React from 'react';
 import Layout from '../layout';
-import { makeStyles } from '@mui/styles';
 import ProductList from '../../components/products/product-list';
 
-const useStyles = makeStyles({
-  wrapper: {
-    paddingTop: 16,
-  },
-});
-
 const ProductsPage: React.FC = () => {
-  const classes = useStyles();
-
   return (
     <Layout showFooter={false}>
       <div>
@@ -24,7 +13,7 @@ const ProductsPage: React.FC = () => {
           <hr />
 
           <div className='m-10'>
-            <div className={classes.wrapper}>
+            <div>
               <ProductList />
             </div>
           </div>
