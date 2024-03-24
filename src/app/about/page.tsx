@@ -1,9 +1,9 @@
-import React from 'react'
-import Layout from '../../app/layout'
-import CompanyHistory from '../../components/about/history'
-import CompanyMilestones from '../../components/about/milestones'
-import TeamExperienceSlider from '../../components/about/team-experiences'
-import CompanyValues from '../../components/about/values'
+import React from 'react';
+import Layout from '../layout';
+import CompanyHistory from '../../components/about/history';
+import CompanyMilestones from '../../components/about/milestones';
+import TeamExperienceSlider from '../../components/about/team-experiences';
+import CompanyValues from '../../components/about/values';
 
 const AboutUsPage: React.FC = () => {
   return (
@@ -34,6 +34,6 @@ const AboutUsPage: React.FC = () => {
       </div>
     </Layout>
   );
-}
+};
 
 export default AboutUsPage;
