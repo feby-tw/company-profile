@@ -19,7 +19,7 @@ const HomePage: React.FC = () => {
   const formattedDate = `${day} ${month} ${year}`;
   
   return (
-    <Layout showHeader={false} showFooter={false}>
+    <Layout>
       <div>
         <main>
           <div>
