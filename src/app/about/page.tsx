@@ -1,5 +1,5 @@
 import React from 'react'
-import Layout from '../layout'
+import Layout from '@/app/layout'
 import CompanyHistory from '@/components/about/history'
 import CompanyMilestones from '@/components/about/milestones'
 import TeamExperienceSlider from '@/components/about/team-experiences'

@@ -1,5 +1,5 @@
 import React from 'react';
-import Layout from '../layout';
+import Layout from '@/app/layout';
 import TeamMember from '@/components/teams/team-member'
 import Image from 'next/image';
 import Team from '@/assets/teams/team.jpg'

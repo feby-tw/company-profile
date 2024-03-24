@@ -1,5 +1,5 @@
 import React from 'react';
-import Layout from './layout';
+import Layout from '@/app/layout';
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faExclamationCircle } from '@fortawesome/free-solid-svg-icons';
@@ -9,7 +9,6 @@ import ProductOverview from '@/components/home/product-overview';
 import HeroSection from '@/components/home/hero-section';
 import CompanyTagline from '@/components/home/company-tagline';
 import CompanyOverview from '@/components/home/company-overview';
-
 
 const HomePage: React.FC = () => {
   const months = [ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ];
