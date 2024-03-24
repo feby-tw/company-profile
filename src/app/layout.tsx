@@ -5,16 +5,14 @@ import './globals.css';
 
 interface LayoutProps {
   children: ReactNode;
-  showHeader?: boolean;
-  showFooter?: boolean;
 }
 
-const Layout: React.FC<LayoutProps> = ({ children, showHeader = true, showFooter = true }) => {
+const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <div className='min-h-screen flex flex-col'>
-      {showHeader && <Header />}
+      <Header />
       <main className='flex-grow'>{children}</main>
-      {showFooter && <Footer />} {}
+      <Footer />
     </div>
   );
 };
