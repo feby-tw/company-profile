@@ -7,7 +7,7 @@ import CompanyValues from '../../components/about/values';
 
 const AboutUsPage: React.FC = () => {
   return (
-    <Layout showHeader={false}>
+    <Layout>
       <div>
         <main>
           <h1 className='bg-black text-white text-5xl flex justify-center place-items-center h-56 tracking-widest'>

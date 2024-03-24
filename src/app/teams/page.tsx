@@ -9,7 +9,7 @@ import { ArrowRightIcon } from '@heroicons/react/20/solid';
 
 const TeamsPage: React.FC = () => {
   return (
-    <Layout showHeader={false}>
+    <Layout>
       <div>
         <h1 className='bg-black text-white text-5xl flex justify-center place-items-center h-56 tracking-widest'>
           OUR TEAM
