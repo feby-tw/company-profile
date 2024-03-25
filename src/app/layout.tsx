@@ -2,6 +2,7 @@ import React, { ReactNode } from 'react';
 import Head from 'next/head'
 import './globals.css';
 import Header from 'components/header';
+import Footer from 'components/footer';
 
 interface LayoutProps {
   children: ReactNode;
@@ -19,6 +20,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         <main className='flex-grow'>
           {children}
         </main>
+        <Footer />
       </body>
     </html>
   );
