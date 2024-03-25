@@ -29,32 +29,36 @@ const CompanyOverview: React.FC = () => {
         </div>
       </div>
       <hr />
-      <div className='grid grid-cols-3 bg-gray-800 justify-between items-center p-40'>
+      <div className='grid grid-cols-3 bg-gray-800 justify-between content-center p-40'>
         <div className='pr-20'>
           <Image src={Logo} alt='Logo Eigre' />
         </div>
         <div className='pl-20 text-white'>
-          <div className='flex justify-between pr-20 mb-4'>
+          <div className='flex justify-between pr-20 mt-4 mb-8'>
             <FontAwesomeIcon icon={faInstagram} className='w-5' />
             <FontAwesomeIcon icon={faTiktok} className='w-5' />
             <FontAwesomeIcon icon={faFacebook} className='w-5' />
             <FontAwesomeIcon icon={faTwitter} className='w-5' />
           </div>
           <div>
-            <p className='mb-2'>
+            <p className='mb-4'>
               Get the latest promotions and other information by registering your email!
             </p>
           </div>
           <div>
             <form className='max-w-xs mx-auto pr-8 text-sm'>
-              <input
-                type='email'
-                placeholder='please enter your email address'
-                className='border-none rounded-lg px-4 py-2 w-full mb-4 focus:bg-white focus:text-black'
-              />
-              <button type='submit' className="bg-red-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-red-400">
-                register
-              </button>
+              <div>
+                <input
+                  type='email'
+                  placeholder='please enter your email address'
+                  className='border-none rounded-lg px-4 py-2 w-full mb-4 focus:bg-white focus:text-black'
+                />
+              </div>
+              <div className='flex justify-center'>
+                <button type='submit' className=" bg-red-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-red-400">
+                  register
+                </button>
+              </div>
             </form>
           </div>
         </div>
@@ -64,8 +68,8 @@ const CompanyOverview: React.FC = () => {
             24 Hours Customer Service
           </p>
           <p>
-            cs@eigreadventure.com<br />
-            +6289876543210 (Whatsapp only)
+            +6289876543210 (Whatsapp only)<br />
+            cs@eigreadventure.com
           </p>
         </div>
       </div>
