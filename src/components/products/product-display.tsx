@@ -1,8 +1,8 @@
 import React from 'react';
-import ProductCard from './product-card';
+import ProductCard from 'utils/product-card';
 import { products } from './product-details';
 
-const ProductList = () => {
+const ProductDisplay = () => {
   return (
     <div className='container mx-auto'>
       <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4'>
@@ -16,4 +16,4 @@ const ProductList = () => {
   );
 };
 
-export default ProductList;
+export default ProductDisplay;

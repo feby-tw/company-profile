@@ -1,4 +1,4 @@
-import TeamCard from './team-card';
+import TeamCard from '../../utils/team-card';
 import { Member } from '../../utils/data-models/member';
 import Hummel from '../../assets/teams/member1.jpg';
 import Fox from '../../assets/teams/member2.jpg';
@@ -60,13 +60,13 @@ const members: Member[] = [
 
 const TeamMember = () => {
   return (
-    <div className='grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-10 mx-20 my-20'>
+    <section className='grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-10 mx-20 my-20'>
       {members.map((member: Member) => (
         <div key={member.id}>
           <TeamCard member={member} />
         </div>
       ))}
-    </div>
+    </section>
   );
 };
 

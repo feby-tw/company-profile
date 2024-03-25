@@ -1,35 +1,36 @@
-import IDR from '../../utils/price';
-import Reviews from '../../utils/review';
-import Sianok from '../../assets/products/01.jpg';
-import MugBrown from '../../assets/products/02.jpg';
-import Azimuth from '../../assets/products/03.jpg';
-import Chair from '../../assets/products/04.jpg';
-import Table from '../../assets/products/05.jpg';
-import MealPackage from '../../assets/products/06.jpg';
-import Torch from '../../assets/products/07.jpg';
-import Rope from '../../assets/products/08.jpg';
-import Trowel from '../../assets/products/09.jpg';
-import Pole from '../../assets/products/10.jpg';
-import Waist from '../../assets/products/11.jpg';
-import Sling from '../../assets/products/12.jpg';
-import Duffel from '../../assets/products/13.jpg';
-import Luggage from '../../assets/products/14.jpg';
-import Backpack from '../../assets/products/15.jpg';
-import MambaLow from '../../assets/products/16.jpg';
-import MambaMid from '../../assets/products/17.jpg';
-import Biskra from '../../assets/products/18.jpg';
-import RasDashen from '../../assets/products/19.jpg';
-import Adder from '../../assets/products/20.jpg';
-import Parka from '../../assets/products/21.jpg';
-import Coach from '../../assets/products/22.jpg';
-import Bomber from '../../assets/products/23.jpg';
-import Windproof from '../../assets/products/24.jpg';
-import Padded from '../../assets/products/25.jpg';
-import Wallet from '../../assets/products/26.jpg';
-import Bracelet from '../../assets/products/27.jpg';
-import Belt from '../../assets/products/28.jpg';
-import Watch from '../../assets/products/29.jpg';
-import Aviator from '../../assets/products/30.jpg';
+import IDR from 'utils/price';
+import Reviews from 'utils/review';
+import tent from 'assets/products/01.jpg'
+import mug from 'assets/products/02.jpg'
+import azimuth from 'assets/products/03.jpg'
+import chair from 'assets/products/04.jpg'
+import table from 'assets/products/05.jpg'
+import mealPackage from 'assets/products/06.jpg'
+import torch from 'assets/products/07.jpg'
+import rope from 'assets/products/08.jpg'
+import trowel from 'assets/products/09.jpg'
+import pole from 'assets/products/10.jpg'
+import waist from 'assets/products/11.jpg'
+import sling from 'assets/products/12.jpg'
+import duffel from 'assets/products/13.jpg'
+import luggage from 'assets/products/14.jpg'
+import backpack from 'assets/products/15.jpg'
+import mambaLow from 'assets/products/16.jpg'
+import mambaMid from 'assets/products/17.jpg'
+import biskra from 'assets/products/18.jpg'
+import rasDashen from 'assets/products/19.jpg'
+import adder from 'assets/products/20.jpg'
+import parka from 'assets/products/21.jpg'
+import coach from 'assets/products/22.jpg'
+import bomber from 'assets/products/23.jpg'
+import windproof from 'assets/products/24.jpg'
+import padded from 'assets/products/25.jpg'
+import wallet from 'assets/products/26.jpg'
+import bracelet from 'assets/products/27.jpg'
+import belt from 'assets/products/28.jpg'
+import watch from 'assets/products/29.jpg'
+import aviator from 'assets/products/30.jpg'
+import { faPrescriptionBottleMedical } from '@fortawesome/free-solid-svg-icons/faPrescriptionBottleMedical';
 
 export const products = [
     {
@@ -43,7 +44,7 @@ export const products = [
             {
                 color: 'Olive',
                 colorCode: '#808000',
-                image: Sianok,
+                image: tent,
             },
         ],
         reviews: <Reviews rating={5} totalStars={5} />,
@@ -59,7 +60,7 @@ export const products = [
             {
                 color: 'Brown',
                 colorCode: '#A52A2A',
-                image: MugBrown,
+                image: mug,
             },
         ],
         reviews: <Reviews rating={4} totalStars={5} />,
@@ -75,7 +76,7 @@ export const products = [
             {
                 color: 'Orange',
                 colorCode: '#FFA500',
-                image: Azimuth,
+                image: azimuth,
             },
         ],
         reviews: <Reviews rating={5} totalStars={5} />,
@@ -91,7 +92,7 @@ export const products = [
             {
                 color: 'Blue',
                 colorCode: '#0000FF',
-                image: Chair,
+                image: chair,
             },
         ],
         reviews: <Reviews rating={5} totalStars={5} />,
@@ -107,7 +108,7 @@ export const products = [
             {
                 color: 'Orange',
                 colorCode: '#FFA500',
-                image: Table,
+                image: table,
             },
         ],
         reviews: <Reviews rating={5} totalStars={5} />,
@@ -123,7 +124,7 @@ export const products = [
             {
                 color: 'Green',
                 colorCode: '#008000',
-                image: MealPackage,
+                image: mealPackage,
             },
         ],
           reviews: <Reviews rating={4} totalStars={5} />,
@@ -139,7 +140,7 @@ export const products = [
             {
                 color: 'Black',
                 colorCode: '#000000',
-                image: Torch,
+                image: torch,
             },
         ],
         reviews: <Reviews rating={5} totalStars={5} />,
@@ -155,7 +156,7 @@ export const products = [
             {
                 color: 'Orange',
                 colorCode: '#FFA500',
-                image: Rope,
+                image: rope,
             },
         ],
         reviews: <Reviews rating={4} totalStars={5} />,
@@ -171,7 +172,7 @@ export const products = [
             {
                 color: 'Silver',
                 colorCode: '#C0C0C0',
-                image: Trowel,
+                image: trowel,
             },
         ],
         reviews: <Reviews rating={4} totalStars={5} />,
@@ -187,7 +188,7 @@ export const products = [
             {
                 color: 'No Colour',
                 colorCode: '#FFFFFF',
-                image: Pole,
+                image: pole,
             },
         ],
         reviews: <Reviews rating={5} totalStars={5} />,
@@ -203,7 +204,7 @@ export const products = [
             {
                 color: 'Brown',
                 colorCode: '#A52A2A',
-                image: Waist,
+                image: waist,
             },
         ],
         reviews: <Reviews rating={5} totalStars={5} />,
@@ -219,7 +220,7 @@ export const products = [
             {
                 color: 'Cream',
                 colorCode: '#FFFDD0',
-                image: Sling,
+                image: sling,
             },
         ],
         reviews: <Reviews rating={4} totalStars={5} />,
@@ -235,7 +236,7 @@ export const products = [
             {
                 color: 'Green',
                 colorCode: '#008000',
-                image: Duffel,
+                image: duffel,
             },
         ],
         reviews: <Reviews rating={5} totalStars={5} />,
@@ -251,7 +252,7 @@ export const products = [
             {
                 color: 'Dark Blue',
                 colorCode: '#00008B',
-                image: Luggage,
+                image: luggage,
             },
         ],
         reviews: <Reviews rating={4} totalStars={5} />,
@@ -267,7 +268,7 @@ export const products = [
             {
                 color: 'Olive',
                 colorCode: '#808000',
-                image: Backpack,
+                image: backpack,
             },
         ],
         reviews: <Reviews rating={5} totalStars={5} />,
@@ -283,7 +284,7 @@ export const products = [
             {
                 color: 'Gray',
                 colorCode: '#808080',
-                image: MambaLow,
+                image: mambaLow,
             },
         ],
         reviews: <Reviews rating={5} totalStars={5} />,
@@ -299,7 +300,7 @@ export const products = [
             {
                 color: 'Navy',
                 colorCode: '#000080',
-                image: MambaMid,
+                image: mambaMid,
             },
         ],
         reviews: <Reviews rating={5} totalStars={5} />,
@@ -315,7 +316,7 @@ export const products = [
             {
                 color: 'Terracotta',
                 colorCode: '#E2725B',
-                image: Biskra,
+                image: biskra,
             },
         ],
         reviews: <Reviews rating={4} totalStars={5} />,
@@ -331,7 +332,7 @@ export const products = [
             {
                 color: 'Khaki',
                 colorCode: '#F0E68C',
-                image: RasDashen,
+                image: rasDashen,
             },
         ],
         reviews: <Reviews rating={4} totalStars={5} />,
@@ -347,7 +348,7 @@ export const products = [
             {
                 color: 'Olive',
                 colorCode: '#808000',
-                image: Adder,
+                image: adder,
             },
         ],
         reviews: <Reviews rating={5} totalStars={5} />,
@@ -363,7 +364,7 @@ export const products = [
             {
                 color: 'Cream',
                 colorCode: '#FFFDD0',
-                image: Parka,
+                image: parka,
             },
         ],
         reviews: <Reviews rating={4} totalStars={5} />,
@@ -379,7 +380,7 @@ export const products = [
             {
                 color: 'Brown',
                 colorCode: '#964B00',
-                image: Coach,
+                image: coach,
             },
         ],
         reviews: <Reviews rating={4} totalStars={5} />,
@@ -395,7 +396,7 @@ export const products = [
             {
                 color: 'Dark Green',
                 colorCode: '#013220',
-                image: Bomber,
+                image: bomber,
             },
         ],
         reviews: <Reviews rating={5} totalStars={5} />,
@@ -411,7 +412,7 @@ export const products = [
             {
                 color: 'Light Green',
                 colorCode: '#90EE90',
-                image: Windproof,
+                image: windproof,
             },
         ],
         reviews: <Reviews rating={5} totalStars={5} />,
@@ -427,7 +428,7 @@ export const products = [
             {
                 color: 'Gray',
                 colorCode: '#808080',
-                image: Padded,
+                image: padded,
             },
         ],
         reviews: <Reviews rating={5} totalStars={5} />,
@@ -443,7 +444,7 @@ export const products = [
             {
                 color: 'Purple',
                 colorCode: '#A020F0',
-                image: Wallet,
+                image: wallet,
             },
         ],
         reviews: <Reviews rating={4} totalStars={5} />,
@@ -459,7 +460,7 @@ export const products = [
             {
                 color: 'Maroon',
                 colorCode: '#800000',
-                image: Bracelet,
+                image: bracelet,
             },
         ],
         reviews: <Reviews rating={4} totalStars={5} />,
@@ -475,7 +476,7 @@ export const products = [
             {
                 color: 'Olive',
                 colorCode: '#808000',
-                image: Belt,
+                image: belt,
             },
         ],
         reviews: <Reviews rating={5} totalStars={5} />,
@@ -491,7 +492,7 @@ export const products = [
             {
                 color: 'Silver',
                 colorCode: '#C0C0C0',
-                image: Watch,
+                image: watch,
             },
         ],
         reviews: <Reviews rating={5} totalStars={5} />,
@@ -507,7 +508,7 @@ export const products = [
             {
                 color: 'Black',
                 colorCode: '#000000',
-                image: Aviator,
+                image: aviator,
             },
         ],
         reviews: <Reviews rating={5} totalStars={5} />,

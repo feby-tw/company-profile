@@ -7,4 +7,4 @@ export type Member = {
     email: string;
     phone: string;
     image: string | StaticImageData;
-  };
+};

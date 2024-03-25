@@ -14,4 +14,4 @@ export type Product = {
         image: string | StaticImageData;
     }[];
     reviews: ReactNode;
-  };
+};

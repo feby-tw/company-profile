@@ -6,8 +6,7 @@ import visionMission from '../../assets/images/visionMission.png';
 
 const HeroSection: React.FC = () => {
   return (
-    <section className='hero-section'>
-      <hr />
+    <div className='hero-section'>
       <div className='grid grid-cols-2 gap-20 ml-40 mr-40 mt-20 mb-20 justify-start'>
         <div className='flex-col'>
           <h5 className='mb-4'>
@@ -26,7 +25,6 @@ const HeroSection: React.FC = () => {
           </Link>
         </div>
       </div>
-
       <hr />
       <div className='grid md:grid-cols-1 gap-20 bg-gray-100 place-items-center text-center pt-20 pl-60 pr-60 pb-40'>
         <div>
@@ -53,7 +51,7 @@ const HeroSection: React.FC = () => {
           </h2>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

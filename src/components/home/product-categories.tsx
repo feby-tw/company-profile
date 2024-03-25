@@ -1,10 +1,10 @@
 import React from 'react';
-import { products } from '../../components/products/product-details';
+import { products } from '../products/product-details';
 import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowRightIcon } from '@heroicons/react/20/solid';
 
-const ProductOverview = () => {
+const ProductCategories = () => {
   const uniqueCategories = [...new Set(products.map(product => product.category))];
 
   const filteredProducts = uniqueCategories.map(category => {
@@ -15,10 +15,11 @@ const ProductOverview = () => {
 
   return (
     <div>
-      <hr />
-      <h5 className='m-12 text-2xl font-bold text-center'>
-        <u>Product Categories</u>
-      </h5>
+      <div>
+        <h5 className='m-12 text-2xl font-bold text-center'>
+          <u>Product Categories</u>
+        </h5>
+      </div>
       <div className='grid grid-cols-5 gap-2 m-8'>
         {fiveProducts.map((product) => (
           <div key={product?.id}>
@@ -36,4 +37,4 @@ const ProductOverview = () => {
   )
 };
 
-export default ProductOverview;
+export default ProductCategories;

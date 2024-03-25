@@ -5,14 +5,15 @@ import TropicalAdventure from '../../assets/images/tagline.png';
 
 const CompanyTagline: React.FC = () => {
   return (
-    <section className='company-tagline'>
-      <hr />
+    <div className='company-tagline'>
       <div className='flex justify-between'>
         <div className='w-2/3 m-20'>
-          <Image className='w-full h-auto'
-            src={EigerGreen}
-            alt='Background Eiger Green'
-          />
+          <div>
+            <Image className='w-full h-auto'
+              src={EigerGreen}
+              alt='Background Eiger Green'
+            />
+          </div>
           <div className='text-center w-auto h-auto pt-16'>
             <p className='mb-4 text-4xl text-green-800 font-bold tracking-widest'>
               Our Commitment
@@ -29,7 +30,7 @@ const CompanyTagline: React.FC = () => {
           />
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 
